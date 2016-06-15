@@ -21,6 +21,12 @@
 
 	window.IRIS = window.IRIS || {};
 	window.IRIS.webwidget = {
+
+		/**
+		 * getTerminals - получаем терминалы
+		 *
+		 * @return {Hashmap}  мап
+		 */
 		getTerminals() {
 			return request('/agent/info').then(d => d.ws_available);
 		},
