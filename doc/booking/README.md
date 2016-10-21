@@ -162,7 +162,7 @@ confirmTicket - регистрация талона предварительно
 
 ````
 {
-    ticket: Object - поля талона
+    ticket: [Object] - массив талонов
     success: Boolean - статус операции
 }
 ````
